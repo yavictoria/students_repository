@@ -1,0 +1,50 @@
+.pizza{
+    width: 1000px;
+    height:1000px;
+    position: relative;
+    background-image: url(images/IMG_2336.PNG);
+    z-index: 1;
+    
+}
+
+.ingredient{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    visibility: hidden;
+    
+}
+
+.sausages{
+    
+    background-image: url(images/sausage.png);
+    z-index: 4;
+    visibility: hidden;
+    
+}
+
+.sause{
+    height: 1000px;
+    background-image: url(images/sause.png);
+    z-index: 2;
+    visibility: hidden;
+}
+
+.cheese{
+    background-image: url(images/cheese.png);
+    z-index: 3;
+}
+
+.shrooms{
+    background-image: url(images/shrooms.png);
+    z-index: 5;
+}
+
+.visible{
+    opacity: 1;
+    transition: all 1s;
+}
+
+.button:hover{
+    cursor: pointer;
+}

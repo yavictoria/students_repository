@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza maker by Vic Yatsiuk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="food">Що ти хочеш додати?</div>
+    <input type="submit" class="button" onclick="Sause()" value="Додати соус">
+    <input type="submit" class="button" onclick="Sausages()" value="Додати ковбасу">
+    <input type="submit" class="button" onclick="Cheese()" value="Додати сир">
+    <input type="submit" class="button" onclick="Shrooms()" value="Додати гриби">
+
+    <div class="pizza">
+        <div id="shrooms" class="ingredient shrooms"></div>
+        <div id="sausages" class="ingredient sausages"></div>
+        <div id="cheese" class="ingredient cheese"></div>
+        <div id="sause" class="ingredient sause"></div>
+        
+    </div>
+</body>
+<script src="js.js"></script>
+</html>
